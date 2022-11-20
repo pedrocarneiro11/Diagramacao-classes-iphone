@@ -1,6 +1,6 @@
 package src;
 
-public class NavegadorInternet extends Funcionalidade{
+public class NavegadorInternet implements Funcionalidade {
     public void exibirPagina(){
         System.out.println("Exibindo pagina da web");
     }

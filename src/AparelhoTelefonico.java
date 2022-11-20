@@ -1,6 +1,6 @@
 package src;
 
-public class AparelhoTelefonico extends Funcionalidade {
+public class AparelhoTelefonico implements Funcionalidade {
     public void ligar(){
         System.out.println("Ligando para um contato");
     }

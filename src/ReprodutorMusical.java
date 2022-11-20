@@ -1,6 +1,6 @@
 package src;
 
-public class ReprodutorMusical extends Funcionalidade{
+public class ReprodutorMusical implements Funcionalidade {
     public void tocarMusica() {
         System.out.println("Tocando musica");
     }
